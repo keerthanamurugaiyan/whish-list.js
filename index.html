@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wislist</title>
+    <script defer src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/bc5865a092.js" crossorigin="anonymous"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body class="bg-info">
+  
+  <h1 class="text-center display-5 fw-bold mt-5">ADD TO WISHLISTS</h1>
+  <div class=" d-flex justify-content-center mt-5">
+      
+    <div class="col-3 text-bg-dark p-5">
+      <h1 class="text-center mb-3">Products</h1>
+        <ul class="navbar-nav text-center mt-3">
+          
+          <li class="nav-item mt-2" id="product1"><span><i class='bx bx-chevrons-right fs-4'></i></span>PRODUCT 1<button class="btn btn-primary ms-3" onclick="addFunction('PRODUCT 1')"><i class="fas fa-check"></i></button></li>
+          
+          <li class="nav-item mt-2" id="product2"><span><i class='bx bx-chevrons-right fs-4'></i></span>PRODUCT 2<button class="btn btn-primary ms-3 "onclick="addFunction('PRODUCT 2')"><i class="fas fa-check"></i></button></li>
+          
+          <li class="nav-item mt-2" id="product3"><span><i class='bx bx-chevrons-right fs-4'></i></span>PRODUCT 3<button class="btn btn-primary ms-3"onclick="addFunction('PRODUCT 3')"><i class="fas fa-check"></i></button></li>
+        </ul>
+      </div>
+      
+      <div class="col-3 text-bg-dark p-5">
+      <h1 class="text-center mb-3">Wishlists</h1>
+        <ul id="wishlist" class="navbar-nav text-center"></ul>
+      </div>
+    </div>
+
+</body>
+</html>
